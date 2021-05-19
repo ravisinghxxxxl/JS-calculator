@@ -9,14 +9,39 @@ table {
     margin-top: 4px;
 }
 input {
-    font-size: 23px;
+    font-size: 20px;
+    width: 290px;
+    background: rgba(255, 255, 255, 0.835);
+    border: rgb(255, 255, 255) solid;
+    height: 25px;
+    margin-bottom: -4;
+    border-radius: 10px;
 }
 
 button {
     font-size: 25px;
     background: rgb(16, 167, 159);
-    width: 70px;
+    width: 72px;
     height: 35px;
     color: rgba(255, 255, 255, 0.924);
     cursor: pointer;
+    border-radius: 13px;
+}
+
+.calculator {
+    background: rgb(0 0 0 / 70%);
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px;
+    border: #414141 solid 6px;
+}
+#see {
+    background: rgb(207 76 76);
+}
+
+#total{
+    background: #2fac16;
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;
 }
